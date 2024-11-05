@@ -1,0 +1,21 @@
+{
+  "name": "11ty-basics",
+  "version": "1.0.0",
+  "description": "eleventy basics",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --quiet"
+  },
+  "author": "joachim kliemann",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.4.47",
+    "postcss-import": "^16.1.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
