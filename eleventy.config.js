@@ -7,7 +7,6 @@ import { log } from "node:console";
 
 export default async function (eleventyConfig) {
   eleventyConfig.on("eleventy.before", async () => {
-    log("eleventy.before");
     // PostCSS processing
     const cssSourceFile = "src/assets/css/main.css";
     const cssDestinationFile = "main.css";
@@ -20,15 +19,11 @@ export default async function (eleventyConfig) {
       postcss([postcssImport, autoprefixer, cssnano])
         .process(css, { from: cssSourceFile, to: cssDestinationFile })
         .then((result) => {
-          log("eleventy.then", result.css, cssDestinationOutput);
-
           fs.writeFile(cssDestinationOutput, result.css, () => true);
         });
     });
     eleventyConfig.addWatchTarget("/src/assets/css/");
   });
-  //eleventyConfig.addPassthroughCopy("./src/assets/css/main.css");
-  //eleventyConfig.addWatchTarget("./src/assets/css/");
 }
 
 export const config = {
