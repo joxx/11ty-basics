@@ -1,4 +1,4 @@
-@import "https://unpkg.com/open-props";
+@import "openprops.css";
 
 body {
   background: var(--yellow-0);
