@@ -1,42 +1,12 @@
 @import "openprops.css";
+@import "global/reset.css";
+@import "compositions/repel.css";
 
 :root {
   --clr-primary: #333;
   --clr-secondary: #fefefe;
   --clr-tertiary: plum;
   --clr-hula: green;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure {
-  margin: 0;
-}
-
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.65;
-  font-family: var(--font-sans);
-}
-
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-  text-underline-offset: 0.08em;
-}
-
-html:focus-within {
-  scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -135,12 +105,6 @@ body {
   }
 }
 
-header {
-  align-items: center;
-  display: flex;
-  padding-block: 2rem;
-}
-
 .logo {
   display: inline-block;
   font-size: 1rem;
@@ -169,10 +133,7 @@ header {
 }
 
 nav {
-  align-items: center;
   display: flex;
-  flex: 1;
-  flex-direction: row-reverse;
   gap: 2rem;
 }
 
