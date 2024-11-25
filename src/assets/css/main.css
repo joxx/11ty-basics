@@ -1,5 +1,10 @@
 @import "openprops.css";
+
 @import "global/reset.css";
+@import "global/fonts.css";
+@import "global/variables.css";
+@import "global/global-styles.css";
+
 @import "compositions/repel.css";
 
 :root {
@@ -103,6 +108,11 @@ body {
   body {
     font-size: 1.6rem;
   }
+}
+
+header .repel {
+  --gutter: 0.5rem var(--space-m);
+  padding-block: var(--space-m);
 }
 
 .logo {
