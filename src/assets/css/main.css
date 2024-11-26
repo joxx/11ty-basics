@@ -1,18 +1,10 @@
 @import "openprops.css";
 
 @import "global/reset.css";
-@import "global/fonts.css";
 @import "global/variables.css";
 @import "global/global-styles.css";
 
 @import "compositions/repel.css";
-
-:root {
-  --clr-primary: #333;
-  --clr-secondary: #fefefe;
-  --clr-tertiary: plum;
-  --clr-hula: green;
-}
 
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
@@ -30,7 +22,7 @@
 }
 
 h1 {
-  font-size: 5.5rem;
+  font-size: var(--size-step-7);
   font-weight: 800;
   line-height: 100%;
   margin-block: 2rem;
@@ -45,40 +37,6 @@ h2 {
 
 p {
   margin-bottom: 2.5rem;
-}
-
-button {
-  border-radius: 4px;
-  background: var(--clr-primary);
-  border: 0;
-  color: var(--clr-secondary);
-  font-size: 1rem;
-  line-height: 1;
-  padding: 0.5rem 0.8rem;
-}
-
-button:hover {
-  background-color: #777;
-  cursor: pointer;
-}
-
-.btn {
-  position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
-  text-decoration: none;
-  background: #fb8332;
-  padding: 1rem 1.5rem;
-  border-radius: 4px;
-  font-size: 1em;
-  font-weight: 500;
-  color: #fff;
-  cursor: pointer;
-  line-height: 1.2;
-  transition: 0.2s;
-  will-change: transform;
 }
 
 .container {
@@ -141,66 +99,3 @@ header .repel {
   background-color: #222;
   left: 1.3rem;
 }
-
-nav {
-  display: flex;
-  gap: 2rem;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  gap: 1rem;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul[hidden] {
-  display: none;
-}
-
-@media (width >= 600px) {
-  nav ul[hidden] {
-    display: flex;
-  }
-}
-
-nav ul li a {
-  color: var(--clr-primary);
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-@media (width >= 600px) {
-  nav button {
-    display: none;
-  }
-}
-
-main {
-  margin-bottom: 2.5rem;
-}
-
-section {
-  padding-block: 2rem;
-}
-
-img {
-  max-inline-size: 100%;
-  block-size: auto;
-}
-
-footer {
-  background-color: #f0f0f0;
-  padding-block: 2.5rem;
-}
-
-footer p {
-  margin-bottom: 0;
-  text-align: center;
-}
-
-/*# sourceMappingURL=main.css.map */
