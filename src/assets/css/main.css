@@ -23,16 +23,12 @@
 
 h1 {
   font-size: var(--size-step-7);
-  font-weight: 800;
   line-height: 100%;
-  margin-block: 2rem;
 }
 
 h2 {
-  font-size: 2.5rem;
-  font-weight: 300;
+  font-size: var(--size-step-4);
   line-height: 110%;
-  margin-bottom: 1.5rem;
 }
 
 p {
