@@ -9,14 +9,9 @@
   },
   "author": "joachim kliemann",
   "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^10.4.20",
-    "cssnano": "^7.0.6",
-    "postcss": "^8.4.47",
-    "postcss-import": "^16.1.0"
-  },
   "type": "module",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^5.0.0"
   }
 }
