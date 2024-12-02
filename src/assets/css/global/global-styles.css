@@ -12,3 +12,7 @@ body {
   line-height: var(--leading-standard);
   margin: 0;
 }
+
+img {
+  width: 100%;
+}
