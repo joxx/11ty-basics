@@ -9,7 +9,9 @@ export default async function (eleventyConfig) {
     async function (src, alt, widths = [300, 600], sizes = "100vh") {
       let metadata = await Image(src, {
         widths,
-        formats: ["avif", "jpeg", "jpg", "png"],
+        formats: ["avif", "webp"],
+        urlPath: "/assets/images/",
+        outputDir: "./_site/assets/images/",
       });
 
       let imageAttributes = {
