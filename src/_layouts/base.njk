@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="/assets/css/main.css" />
   </head>
   <body>
-    {% include "partials/header.html" %}
-    <main class="container">{{ content }}</main>
+    {% include "partials/header.njk" %}
+    <main class="container">{{ content | safe }}</main>
   </body>
 </html>

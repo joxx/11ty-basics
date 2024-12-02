@@ -1,10 +1,11 @@
 ---
 title: my awesome blog
-layout: layouts/base.html
+layout: base
+permalink: /index.html
 ---
 
 <div>
-  <h1>{{ title | default: "My Blog"}}</h1>
+  <h1>{{ title or "My Blog" }}</h1>
 </div>
 
 {% for post in collections.post %}
