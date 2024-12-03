@@ -1,9 +1,6 @@
 <nav id="navigation" role="navigation">
   <span class="navigation-label">Navigation:</span>
-
   {% for item in navigation.items %}
-
-  <a class="navigation-link" href="{{ itemUrl }}"> {{ item.text }} </a>
-
+  <a class="navigation-link" href="{{ item.url }}"> {{ item.text }} </a>
   {% endfor %}
 </nav>
