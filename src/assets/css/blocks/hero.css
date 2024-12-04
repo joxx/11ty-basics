@@ -1,0 +1,3 @@
+.hero h1 {
+  line-height: var(--leading-flat);
+}

@@ -15,12 +15,11 @@ body {
 
 h1 {
   font-size: var(--size-step-7);
-  line-height: 100%;
 }
 
 h2 {
   font-size: var(--size-step-4);
-  line-height: 110%;
+  line-height: var(--leading-flat);
 }
 
 img {
