@@ -37,6 +37,7 @@
   --size-step-7: clamp(4.0311rem, 2.9453rem + 5.4287vw, 7.1526rem);
   --leading-flat: 1;
   --leading-fine: 1.15;
+  --leading-standard: 1.5;
   --leading-loose: 1.7;
   --font-base: Inter, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
   --font-regular: 400;
@@ -47,6 +48,7 @@
   --transition-movement: 200ms linear;
   --transition-fade: 300ms ease;
   --transition-bounce: 500ms cubic-bezier(0.5, 0.05, 0.2, 1.5);
-  --leading-standard: 1.5;
+
   --wrapper-max-width: 1360px;
+  --region-space: var(--space-m-l);
 }

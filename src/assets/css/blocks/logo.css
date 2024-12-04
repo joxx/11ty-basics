@@ -22,7 +22,7 @@
 
 .logo::after {
   background-color: var(--color-primary);
-  left: var(--space-s);
+  left: var(--space-m);
 }
 
 .logo-v2 {

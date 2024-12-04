@@ -6,6 +6,7 @@
 @import "compositions/wrapper.css";
 
 @import "blocks/logo.css";
+@import "blocks/hero.css";
 
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
@@ -21,25 +22,6 @@
     scroll-behavior: auto !important;
   }
 }
-
-h1 {
-  font-size: var(--size-step-7);
-  line-height: 100%;
-}
-
-h2 {
-  font-size: var(--size-step-4);
-  line-height: 110%;
-}
-
-p {
-  margin-bottom: 2.5rem;
-}
-
-/* .container {
-  margin-inline: auto;
-  width: min(100% - 2rem, 80rem);
-} */
 
 .full-bleed {
   box-shadow: 0 0 0 100vmax #ff6c00;

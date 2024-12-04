@@ -7,13 +7,31 @@
 body {
   background: var(--color-light);
   color: var(--color-dark);
-  font-size: var(--size-step-0);
+  font-size: var(--size-step-1);
   font-family: var(--font-base);
   line-height: var(--leading-standard);
   margin: 0;
 }
 
+h1 {
+  font-size: var(--size-step-7);
+  line-height: 100%;
+}
+
+h2 {
+  font-size: var(--size-step-4);
+  line-height: 110%;
+}
+
 img {
   width: 100%;
   height: auto;
+}
+
+.region {
+  padding-block: var(--region-space, var(--space-l-xl));
+}
+
+.text-step-4 {
+  font-size: var(--size-step-4);
 }
