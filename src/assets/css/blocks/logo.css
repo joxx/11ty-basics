@@ -1,0 +1,53 @@
+.logo {
+  display: inline-block;
+  font-size: var(--space-s);
+  height: var(--space-l);
+  position: relative;
+  text-indent: -9999%;
+  width: var(--space-2xl);
+}
+
+.logo::before,
+.logo::after {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  content: " ";
+  height: var(--space-l);
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  width: var(--space-l);
+  mix-blend-mode: multiply;
+}
+
+.logo::after {
+  background-color: var(--color-primary);
+  left: var(--space-m);
+}
+
+.logo-v2 {
+  display: inline-block;
+  font-size: var(--space-s);
+  height: var(--space-l);
+  position: relative;
+  text-indent: -9999%;
+  width: var(--space-2xl);
+}
+
+.logo-v2::before,
+.logo-v2::after {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  content: " ";
+  height: var(--space-l);
+  left: 0;
+  opacity: 0.8;
+  position: absolute;
+  width: var(--space-l);
+  mix-blend-mode: multiply;
+}
+
+.logo-v2::after {
+  background-color: var(--color-primary);
+  left: var(--space-s);
+}

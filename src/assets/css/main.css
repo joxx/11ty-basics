@@ -1,10 +1,12 @@
-@import "openprops.css";
-
 @import "global/reset.css";
 @import "global/variables.css";
 @import "global/global-styles.css";
 
 @import "compositions/repel.css";
+@import "compositions/wrapper.css";
+
+@import "blocks/logo.css";
+@import "blocks/hero.css";
 
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
@@ -21,25 +23,6 @@
   }
 }
 
-h1 {
-  font-size: var(--size-step-7);
-  line-height: 100%;
-}
-
-h2 {
-  font-size: var(--size-step-4);
-  line-height: 110%;
-}
-
-p {
-  margin-bottom: 2.5rem;
-}
-
-.container {
-  margin-inline: auto;
-  width: min(100% - 2rem, 60rem);
-}
-
 .full-bleed {
   box-shadow: 0 0 0 100vmax #ff6c00;
   clip-path: inset(0 -100vmax);
@@ -50,48 +33,7 @@ p {
   color: #222;
 }
 
-body {
-  background-color: var(--clr-secondary);
-  color: var(--clr-primary);
-  font-family: system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
-  font-size: 1.2rem;
-  line-height: 160%;
-}
-
-@media (width >= 600px) {
-  body {
-    font-size: 1.6rem;
-  }
-}
-
 header .repel {
   --gutter: 0.5rem var(--space-m);
   padding-block: var(--space-m);
-}
-
-.logo {
-  display: inline-block;
-  font-size: 1rem;
-  height: 2rem;
-  position: relative;
-  text-indent: -9999%;
-  width: 3.3rem;
-}
-
-.logo::before,
-.logo::after {
-  background-color: #ff6c00;
-  border-radius: 100%;
-  content: " ";
-  height: 2rem;
-  left: 0;
-  opacity: 0.8;
-  position: absolute;
-  width: 2rem;
-  mix-blend-mode: multiply;
-}
-
-.logo::after {
-  background-color: #222;
-  left: 1.3rem;
 }

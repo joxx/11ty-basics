@@ -1,0 +1,6 @@
+.hero h1 {
+  line-height: var(--leading-flat);
+}
+.hero p {
+  line-height: var(--leading-fine);
+}

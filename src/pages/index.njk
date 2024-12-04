@@ -1,0 +1,21 @@
+---
+title: I develop sustainable and accessible websites
+layout: base
+permalink: /index.html
+---
+
+<div class="container">
+  <div class="hero">
+    <h1>{{ title or "my awesome blog" }}</h1>
+    <p class="text-step-4">Hi, I'm a web developer and I love to create sustainable and accessible websites. I'm currently working on a blog where I share my knowledge and experiences. Stay tuned!</p>
+  </div>
+  <div class="region">
+    {% for post in collections.post %}
+    <article>
+      <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
+      <p>{{ post.data.description }}</p>
+    </article>
+    {% endfor %}  
+  </div>
+</div>
+
