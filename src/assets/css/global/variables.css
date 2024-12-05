@@ -39,7 +39,7 @@
   --leading-fine: 1.25;
   --leading-standard: 1.5;
   --leading-loose: 1.7;
-  --font-base: sans-serif;
+  --font-base: "Mona Sans", sans-serif;
   --font-regular: 400;
   --font-medium: 500;
   --font-bold: 700;
