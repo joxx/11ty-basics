@@ -22,9 +22,14 @@ h2 {
   line-height: var(--leading-flat);
 }
 
-img {
-  width: 100%;
-  height: auto;
+:where(img, picture, svg, canvas) {
+  background-repeat: no-repeat;
+  background-size: cover;
+  block-size: auto;
+  font-style: italic;
+  max-inline-size: 100%;
+  shape-margin: 0.75rem;
+  vertical-align: middle;
 }
 
 .region {
