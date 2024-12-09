@@ -1,0 +1,8 @@
+footer {
+  padding: var(--space-m);
+  text-align: center;
+}
+
+footer span {
+  color: var(--color-secondary);
+}
