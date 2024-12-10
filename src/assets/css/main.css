@@ -7,6 +7,7 @@
 @import "compositions/wrapper.css";
 
 @import "blocks/logo.css";
+@import "blocks/navigation.css";
 @import "blocks/hero.css";
 @import "blocks/footer.css";
 
