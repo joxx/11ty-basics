@@ -6,35 +6,8 @@
 @import "compositions/repel.css";
 @import "compositions/wrapper.css";
 
+@import "blocks/header.css";
 @import "blocks/logo.css";
+@import "blocks/navigation.css";
 @import "blocks/hero.css";
-
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-.full-bleed {
-  box-shadow: 0 0 0 100vmax #ff6c00;
-  clip-path: inset(0 -100vmax);
-}
-
-.inverse {
-  background-color: #ff6c00;
-  color: #222;
-}
-
-header .repel {
-  --gutter: 0.5rem var(--space-m);
-  padding-block: var(--space-m);
-}
+@import "blocks/footer.css";

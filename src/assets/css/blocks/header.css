@@ -1,0 +1,4 @@
+header .repel {
+  --gutter: 0.5rem var(--space-m);
+  padding-block: var(--space-m);
+}
