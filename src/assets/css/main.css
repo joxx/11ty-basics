@@ -5,6 +5,7 @@
 
 @import "compositions/repel.css";
 @import "compositions/wrapper.css";
+@import "compositions/sidebar.css";
 
 @import "blocks/header.css";
 @import "blocks/logo.css";
