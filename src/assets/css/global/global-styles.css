@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-  font-size: var(--size-step-7);
+  font-size: var(--size-headline-h1);
 }
 
 h2 {
