@@ -6,6 +6,8 @@
 @import "compositions/repel.css";
 @import "compositions/wrapper.css";
 @import "compositions/sidebar.css";
+@import "compositions/grid.css";
+@import "compositions/flow.css";
 
 @import "blocks/header.css";
 @import "blocks/logo.css";
