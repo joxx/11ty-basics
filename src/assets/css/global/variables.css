@@ -36,6 +36,7 @@
   --size-step-5: clamp(2.7994rem, 2.1808rem + 3.0927vw, 4.5776rem);
   --size-step-6: clamp(3.3592rem, 2.5374rem + 4.1092vw, 5.722rem);
   --size-step-7: clamp(4.0311rem, 2.9453rem + 5.4287vw, 7.1526rem);
+  --size-headline-h1: clamp(3.3592rem, 2.2374rem + 5.4287vw, 7.1526rem);
   --leading-flat: 1;
   --leading-fine: 1.25;
   --leading-standard: 1.5;

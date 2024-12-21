@@ -7,6 +7,12 @@ description: This is a technical blog post including an example page
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
+<a href="{{ 'index.md' | inputPathToUrl }}">Home</a>
+
+<a href="{{ './example/' | url }}">Liquid or Nunjucks Link (from string)</a>
+
+<a href="{{ post.url | url }}">Liquid or Nunjucks Link (from variable)</a>
+
 ## Section Header
 
 Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the dig
